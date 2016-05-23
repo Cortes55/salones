@@ -4,7 +4,7 @@ include ("/var/www/html/Salones/database.php");
 include("/var/www/html/Salones/Asignar.php");
 include("/var/www/html/Salones/Datos.php");
 include("/var/www/html/Salones/Salon.php");
-include("//var/www/html/Salones/Horario.php");
+include("/var/www/html/Salones/Horario.php");
 
 class Test extends PHPUnit_Framework_TestCase
 {
