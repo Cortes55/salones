@@ -1,6 +1,7 @@
 <?php
 
 include ("/var/www/html/Salones/database.php");
+include('/home/travis/build/Cortes55/salones/database.php');
 include("/var/www/html/Salones/Asignar.php");
 include("/var/www/html/Salones/Datos.php");
 include("/var/www/html/Salones/Salon.php");
