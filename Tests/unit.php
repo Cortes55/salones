@@ -1,12 +1,11 @@
 <?php
 
 include ("/var/www/html/Salones/database.php");
-include('/home/travis/build/Cortes55/salones/database.php');
 include("/var/www/html/Salones/Asignar.php");
 include("/var/www/html/Salones/Datos.php");
 include("/var/www/html/Salones/Salon.php");
 include("/var/www/html/Salones/Horario.php");
-include_path('.:/home/travis/.phpenv/versions/5.6.5/pear:/home/travis/.phpenv/versions/5.6.5/share/pyrus/.pear/php');
+include_path='.:/home/travis/.phpenv/versions/5.6.5/pear:/home/travis/.phpenv/versions/5.6.5/share/pyrus/.pear/php';
 class Test extends PHPUnit_Framework_TestCase
 {
 
